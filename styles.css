@@ -1,5 +1,37 @@
 body {
   margin: 0;
   padding: 0;
-  color: red;
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  height: 69px;
+}
+
+section#mission {
+  display: flex;
+  margin-top: 69px;
+}
+
+section#featured-items {
+  display: flex;
+}
+
+section#locations {
+  display: flex;
+}
+
+main {
+  display: flex;
+}
+
+footer {
+  
 }
