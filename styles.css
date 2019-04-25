@@ -1,34 +1,42 @@
+/************************
+ * TEA COZY - HOME PAGE *
+ ***********************/
+
 body {
   margin: 0;
   padding: 0;
   background-color: black;
+  opacity: 0.9;
   font-family: Helvetica;
   font-size: 22px;
   text-align: center;
   color: seashell;
-  opacity: 0.9;
-}
+  }
 
 a {
   color: seashell;
 }
 
+/*** Header ***/
+
 header {
   width: 100%;
   height: 69px;
   background-color: black;
+  border-bottom: 1px solid seashell;
   position: fixed;
+  z-index: 1;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid seashell;
-  z-index: 1;
-}
+  }
 
 header img, header li {
   margin: 0 10px;
   display: inline-block;
 }
+
+/*** Main Content Wrapper ***/
 
 main {
   width: 1200px;
@@ -36,14 +44,16 @@ main {
   padding: 70px 50px 0 50px;
 }
 
+/*** Company Mission Section ***/
+
 #mission {
   display: flex;
 }
 
-#hero {
-  background-image: url(images/img-mission-background.jpg);
+#hero-panel {
   width: 1200px;
   height: 700px;
+  background-image: url(images/img-mission-background.jpg);
   display: flex;
   align-items: center;
 }
@@ -58,6 +68,8 @@ main {
   padding: 10px 0;
 }
 
+/*** Featured Products Section ***/
+
 #featured-items {
   width: 1030px;
   margin: 80px auto 0 auto;
@@ -71,14 +83,14 @@ main {
   margin: 20px 0 25px 0;
 }
 
-#product-cards {
+#product-cards-wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-content: space-between;
 }
 
-#product-cards h4 {
+#product-cards-wrapper h4 {
   margin-top: 10px;
 }
 
@@ -86,8 +98,11 @@ main {
   padding: 0 15px;
 }
 
-/* NOTE: The redline specifies a height of 500px for the locations panel below ... but
-it SHOWS a height of about 570 pixels - and that looks better to me, so I'm using it. */
+/*** Locations Section ***/
+
+/* NOTE: The redline specifies a height of 500px for the Locations
+image, but it SHOWS the image at about 570px high. In my opinion the
+570px height is more effective, so that's what I applied below. */
 
 #locations-panel {
   width: 1200px;
@@ -123,13 +138,17 @@ it SHOWS a height of about 570 pixels - and that looks better to me, so I'm usin
   margin: 10px 0;
 }
 
+/*** Company Contact Section ***/
+
 #contact h2 {
   margin: 10px 0 40px 0;
 }
 
+/*** Footer ***/
+
 footer {
   padding: 38px 20px 30px 20px;
-  text-align: left;
   font-size: 18px;
   font-weight: bold;
+  text-align: left;
 }
