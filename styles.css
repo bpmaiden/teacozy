@@ -120,6 +120,11 @@ main {
   margin: 10px 0;
 }
 
+#contact h2 {
+  margin: 10px 0 40px 0;
+}
+
 footer {
-  
+  padding: 25px 20px 10px 20px;
+  text-align: left;
 }
