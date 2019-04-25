@@ -31,12 +31,12 @@ header img, header li {
 }
 
 main {
-  position: relative;
-  top: 70px;
-  padding: 0 50px;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 70px 50px 0 50px;
 }
 
-section#mission {
+#mission {
   display: flex;
 }
 
@@ -46,10 +46,6 @@ section#mission {
   height: 700px;
   display: flex;
   align-items: center;
-}
-
-#mission {
-  margin: 0 auto;
 }
 
 #mission-statement {
@@ -62,7 +58,7 @@ section#mission {
   padding: 10px 0;
 }
 
-section#featured-items {
+#featured-items {
   width: 1030px;
   margin: 80px auto 0 auto;
 }
@@ -86,12 +82,42 @@ section#featured-items {
   margin-top: 10px;
 }
 
-.card img {
+.product-card img {
   padding: 0 15px;
 }
 
-section#locations {
+#locations-panel {
+  width: 1200px;
+  height: 570px;
+  margin-top: 50px;
+  background-image: url(images/img-locations-background.jpg);
+  background-size: cover;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+}
+
+#locations-panel h2 {
+  width: 100%;
+  margin: 80px 0 20px 0;
+}
+
+.location-card {
+  width: 300px;
+  margin: 0 20px;
+  padding: 10px 0;
+  background-color: black;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.location-card h3 {
+  margin: 10px 0;
 }
 
 footer {
