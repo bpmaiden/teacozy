@@ -64,7 +64,15 @@ section#mission {
 
 section#featured-items {
   width: 1030px;
-  margin: 0 auto;
+  margin: 80px auto 0 auto;
+}
+
+#featured-items h2 {
+  margin: 0;
+}
+
+#featured-items h4 {
+  margin: 20px 0 25px 0;
 }
 
 #product-cards {
@@ -72,6 +80,10 @@ section#featured-items {
   flex-wrap: wrap;
   justify-content: center;
   align-content: space-between;
+}
+
+#product-cards h4 {
+  margin-top: 10px;
 }
 
 .card img {
