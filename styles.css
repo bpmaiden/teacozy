@@ -86,10 +86,13 @@ main {
   padding: 0 15px;
 }
 
+/* NOTE: The redline specifies a height of 500px for the locations panel below ... but
+it SHOWS a height of about 570 pixels - and that looks better to me, so I'm using it. */
+
 #locations-panel {
   width: 1200px;
   height: 570px;
-  margin-top: 50px;
+  margin-top: 54px;
   background-image: url(images/img-locations-background.jpg);
   background-size: cover;
   display: flex;
@@ -125,6 +128,8 @@ main {
 }
 
 footer {
-  padding: 25px 20px 10px 20px;
+  padding: 38px 20px 30px 20px;
   text-align: left;
+  font-size: 18px;
+  font-weight: bold;
 }
